@@ -18,6 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 public class StepDefs {
 
+    
     @Given("^I am on the home page$")
     public void i_am_on_the_home_page() throws Throwable {
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
